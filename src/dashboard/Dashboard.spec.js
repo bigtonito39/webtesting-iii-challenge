@@ -8,5 +8,5 @@ import Display from "../display/Display"
 
 it("are display and controls showing in the dashboard?", () => {
  const wrapper = rtl.render(<Dashboard/>);
- 
+ expect(wrapper).toMatchSnapshot();
 })
