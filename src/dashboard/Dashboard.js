@@ -12,6 +12,8 @@ class Dashboard extends React.Component {
   render() {
     const { closed, locked } = this.state;
 
+    console.log(closed)
+
     return (
       <>
         <Display locked={locked} closed={closed} />
