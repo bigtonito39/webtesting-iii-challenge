@@ -5,7 +5,7 @@ import {render} from "@testing-library/react";
 
 describe("display testing passing", () => {
     test("if the closed prop is true display closed", ()=> {
-        const {getByText} = render(<Display closed={true}>/></Display>)
+        const {getByText} = render(<Display closed={true} />)
         getByText(/closed/i)
     })
 
